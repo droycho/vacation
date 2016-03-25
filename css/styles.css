@@ -4,6 +4,17 @@
   margin: auto;
 }
 
+#results {
+  text-shadow: 0 0 10px #020202,
+               0 0 20px #f5f5f5,
+               0 0 30px #f5f5f5,
+               0 0 40px #f5f5f5,
+               0 0 70px #f5f5f5,
+               0 0 80px #f5f5f5,
+               0 0 100px #f5f5f5,
+               0 0 150px #f5f5f5;
+}
+
 body {
   background: url("../img/background.jpg") no-repeat center center fixed;
   background-size:cover;
@@ -11,11 +22,17 @@ body {
 
 h1 {
   text-align: center;
-  color: red;
   font-family: cursive;
   margin-bottom: 40px;
-  font-weight: bolder;
   font-size: 60px;
+  text-shadow: 0 0 10px #020202,
+               0 0 20px #f5f5f5,
+               0 0 30px #f5f5f5,
+               0 0 40px #f5f5f5,
+               0 0 70px #f5f5f5,
+               0 0 80px #f5f5f5,
+               0 0 100px #f5f5f5,
+               0 0 150px #f5f5f5;
 }
 
 
