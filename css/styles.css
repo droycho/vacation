@@ -1,8 +1,8 @@
-#vote1 {
+#banner {
   max-height: 400px;
   max-width: auto;
-
 }
+/*
 .projects-title {
   text-align: center;
   padding-bottom: 50px;
@@ -15,8 +15,8 @@
   text-align: justify;
   padding: 20px;
   margin-top: 50px;
-}
-.projects-text-blocks {
+}*/
+/*.projects-text-blocks {
   display: inline-block;
   border: solid;
   border-color: black;
@@ -28,8 +28,8 @@
   margin-left: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
-}
-.projects-img {
+}*/
+/*.projects-img {
     max-height: 200px;
     min-height: 200px;
     max-width: 250px;
@@ -38,7 +38,7 @@
 }
 .projects-links {
   float: none;
-}
+}*/
 
 h1 {
   text-align: center;

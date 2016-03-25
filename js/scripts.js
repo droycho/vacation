@@ -19,7 +19,7 @@ $(document).ready(function() {
       $(".space").show();
     } else if (score >= 5 && score <= 10) {
       $(".tropic").show();
-    } else if (score >= 11 && score <= 15 ) {
+    } else if (score >= 11 && score <= 15) {
       $(".europe").show();
     } else {
       $(".mountain").show();
