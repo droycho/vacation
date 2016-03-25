@@ -88,15 +88,19 @@ h3 {
   margin-bottom: 100px;
 }
 
-.conservative {
+.space {
   display:none;
 }
 
-.independent {
+.tropic {
   display: none;
 }
 
-.liberal {
+.europe {
+  display: none;
+}
+
+.mountain {
   display: none;
 }
 

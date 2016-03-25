@@ -5,10 +5,6 @@ $(document).ready(function() {
 
     var result= parseInt($("#season").val());
     score += result;
-    // var result= parseInt($("#president").val());
-    // score += result;
-    // var result= parseInt($("#tax").val());
-    // score += result;
     var result= parseInt($("#food").val());
     score += result;
     var result= parseInt($("#budget").val());
@@ -19,15 +15,15 @@ $(document).ready(function() {
     score += result;
 
 
-    if (score < 60) {
-      $(".conservative").show();
-    } else if (score === 60) {
-      $(".independent").show();
+    if (score === 5) {
+      $(".space").show();
+    } else if (score >= 5 && score <= 10) {
+      $(".tropic").show();
+    } else if (score >= 11 && score <= 15 ) {
+      $(".europe").show();
     } else {
-      $(".liberal").show();
+      $(".mountain").show();
     }
-
-
     event.preventDefault();
   });
 });
