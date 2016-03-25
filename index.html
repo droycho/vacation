@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+   <link rel ="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+   <link rel="stylesheet" type="text/css" href="css/styles.css">
+   <script src="js/jquery-1.12.2.js"></script>
+   <script src="js/scripts.js"></script>
+    <title>Voting Age</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Where should I go for vacation?</h1>
+      <img id="banner" src="img/banner.jpg" alt="page banner">
+      <form class= "userInfo">
+        <!-- <div class="form-group">
+          <label for="name">Please enter your name:</label>
+          <input id="name" class="form-control" type="text">
+        </div> -->
+        <!-- <div class="form-group">
+          <label for="age">Please enter your age:</label>
+          <input id="age" class="form-control" type="text">
+        </div> -->
+        <!-- <div class="form-group">
+          <label for="date">Please enter the date:</label>
+          <input id="date" class="form-control" type="date">
+        </div>
+        <label for="party">Pick a political party:</label>
+        <select class="form-control" id="party">
+          <option></option>
+          <option value="15">Democrat</option>
+          <option value="0">Republican</option>
+          <option value="8">Independent</option>
+          <option value="15">Green Party</option>
+          <option value="0">Libertarian</option>
+          <option value="0">Constitution Party</option>
+        </select>
+        <label for="party">Pick a President:</label>
+        <select class="form-control" id="president">
+          <option></option>
+          <option value="0">Ronald Reagan</option>
+          <option value="0">Richard Nixon</option>
+          <option value="15">Barack Obama</option>
+          <option value="15">Bill Clinton</option>
+          <option value="8">Herbert Hoover</option>
+          <option value="8">Howard Taft</option>
+        </select> -->
+        <h3>Please answer the follow questions to help us determine what type of vaction would best meet your needs:</h3>
+        <label for="party">What is your favorite Season?</label>
+        <select class="form-control" id="season">
+          <option></option>
+          <option value="1">Spring</option>
+          <option value="2">Summer</option>
+          <option value="3">Fall/Autumn</option>
+          <option value="4">Winter</option>
+        </select>
+        <label for="party">What kinds of food do you like?</label>
+        <select class="form-control" id="food">
+          <option></option>
+          <option value="3">Italian</option>
+          <option value="4">Venicin</option>
+          <option value="2">Seafood</option>
+          <option value="1">M.R.E.s</option>
+        </select>
+        <label for="party">How much do you want to spend?</label>
+        <select class="form-control" id="budget">
+          <option></option>
+          <option value="3">Less than $500</option>
+          <option value="4">$500 - $5,000</option>
+          <option value="2">$5,000 - $20,000</option>
+          <option value="1">$1,000,000 or more</option>
+        </select>
+        <label for="party">Who will you be traveling with?</label>
+        <select class="form-control" id="group">
+          <option></option>
+          <option value="1">Single</option>
+          <option value="2">Couple</option>
+          <option value="3">Friends</option>
+          <option value="4">Family</option>
+        </select>
+        <label for="party">What are you looking to gain from the experience?</label>
+        <select class="form-control" id="experience">
+          <option></option>
+          <option value="1">Have a unique adventure</option>
+          <option value="2">Relax/Stress relief</option>
+          <option value="3">Create valuable memories</option>
+          <option value="4">Learn about other cultures and the world</option>
+        </select>
+        <!-- <div class="radioContainer">
+          <h3>Pick a candidate:</h3>
+          <div class="radio-inline">
+            <label>
+              <input type="radio" name="hillary" value="15" id="hillary"><label for="hillary">Hillary Clinton</label>
+              <img class="radioImage" src="img/hillary.jpg" alt="Picture of hillary" />
+            </label>
+          </div>
+          <div class="radio-inline">
+            <label>
+              <input type="radio" name="bernie" value="15" id="bernie"><label for="bernie">Bernie Sanders</label>
+              <img class="radioImage" src="img/bernie.gif" alt="Picture of bernie" />
+            </label>
+          </div>
+          <div class="radio-inline">
+            <label>
+              <input type="radio" name="donald" value="0" id="donald"><label for="donald">Donald Trump</label>
+              <img class="radioImage" src="img/donald.gif" alt="Picture of donald" />
+            </label>
+          </div>
+          <div class="radio-inline">
+            <label>
+              <input type="radio" name="ted" value="0" id="ted"><label for="ted">Ted Cruz</label>
+              <img class="radioImage" src="img/ted.gif" alt="Picture of ted" />
+            </label>
+          </div>
+          <div class="radio-inline">
+            <label>
+              <input type="radio" name="john" value="0" id="john"><label for="john">John Kasich</label>
+              <img class="radioImage" src="img/john.gif" alt="Picture of john" />
+            </label>
+          </div> -->
+      </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+        <div class="results1">
+            <h3>Here are your results:</h3>
+            <div class="conservative">
+              <h3>You align with Conservative values.</h3>
+              <img class="resultsImg" src="img/gop.jpg" alt="republicans logo"/>
+            </div>
+            <div class="liberal">
+              <h3>You align with Liberal values.</h3>
+              <img class="resultsImg" src="img/dems.png" alt="democrats logo"/>
+            </div>
+            <div class="independent">
+              <h3>You align with Independent values.</h3>
+              <img class="resultsImg" src="img/ind.png" alt="independent logo">
+            </div>
+        </div>
+    </div>
+  </body>
+  </html>

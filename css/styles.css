@@ -1,0 +1,107 @@
+#vote1 {
+  max-height: 400px;
+  max-width: auto;
+
+}
+.projects-title {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.projects-row {
+  margin-left: 50px;
+  margin-right: 100px;
+  text-align: center;
+  text-align: justify;
+  padding: 20px;
+  margin-top: 50px;
+}
+.projects-text-blocks {
+  display: inline-block;
+  border: solid;
+  border-color: black;
+  border-width: 2px;
+  background-color: #D5D9D8;
+  min-height: 300px;
+  max-width: 306px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.projects-img {
+    max-height: 200px;
+    min-height: 200px;
+    max-width: 250px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.projects-links {
+  float: none;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+form {
+  margin-top: 150px;
+}
+
+.projects-h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.btn {
+  margin-top: 50px;
+  margin-bottom: 100px;
+
+}
+
+.radioImage {
+  max-height: 175px;
+  min-height: 175px;
+  max-width: 175px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: solid;
+  border-radius: 3px;
+  border-color: black;
+  background-color: #4b4141;
+}
+.results1 {
+  display:none;
+  margin-bottom: 100px;
+}
+
+.conservative {
+  display:none;
+}
+
+.independent {
+  display: none;
+}
+
+.liberal {
+  display: none;
+}
+
+.resultsImg {
+  max-height: 500px;
+  max-width: auto;
+
+}
