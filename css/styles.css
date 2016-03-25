@@ -4,6 +4,11 @@
   margin: auto;
 }
 
+body {
+  background: url("../img/background.jpg") no-repeat center center fixed;
+  background-size:cover;
+}
+
 h1 {
   text-align: center;
   color: red;
@@ -16,7 +21,6 @@ h1 {
 
 h3 {
   text-align: center;
-  color: red;
   font-family: fantasy;
 }
 
@@ -80,4 +84,13 @@ img {
 .resultsImg {
   max-height: 500px;
   max-width: auto;
+}
+
+.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: none;
+  padding: 10px;
+  background: rgb(183, 193, 197);
+  background: rgba(190, 191, 182, 0.5);
 }

@@ -15,11 +15,13 @@ $(document).ready(function() {
     score += result;
 
 
-    if (score === 5) {
+    if (score < 5) {
+      alert("Please select an answer for each question.");
+    } else if (score === 5) {
       $(".space").show();
-    } else if (score >= 5 && score <= 10) {
+    } else if (score > 5 && score <= 10) {
       $(".tropic").show();
-    } else if (score >= 11 && score <= 15) {
+    } else if (score > 10 && score <= 15) {
       $(".europe").show();
     } else {
       $(".mountain").show();
