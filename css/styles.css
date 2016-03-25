@@ -1,11 +1,28 @@
 #banner {
   max-height: 400px;
-  max-width: auto;
+  max-width: 1140px;
+  margin: auto;
 }
 
 h1 {
   text-align: center;
   color: red;
+  font-family: cursive;
+  margin-bottom: 40px;
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+
+h3 {
+  text-align: center;
+  color: red;
+  font-family: fantasy;
+}
+
+p {
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 img {
@@ -16,11 +33,6 @@ img {
 
 .projects-h2 {
   text-align: center;
-}
-
-h3 {
-  text-align: center;
-  color: red;
 }
 
 .btn {
@@ -46,6 +58,7 @@ h3 {
 .results1 {
   display:none;
   margin-bottom: 100px;
+  text-align: center justify;
 }
 
 .space {
