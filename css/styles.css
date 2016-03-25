@@ -12,11 +12,6 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
-}
-
-form {
-  margin-top: 150px;
 }
 
 .projects-h2 {
@@ -25,9 +20,22 @@ form {
 
 h3 {
   text-align: center;
+  color: red;
 }
 
 .btn {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.returnbtn {
+  margin-top: 50px;
+}
+
+.refresh {
   display: block;
   margin-top: 50px;
   margin-bottom: 100px;
@@ -59,5 +67,4 @@ h3 {
 .resultsImg {
   max-height: 500px;
   max-width: auto;
-
 }

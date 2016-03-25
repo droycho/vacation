@@ -30,14 +30,10 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $("form").submit(function(event) {
-    // var nameInput = $("input#name").val();
-    // var dateInput = $("input#date").val();
-    // $(".name").text(nameInput);
-    // $(".date").text(dateInput);
-    // console.log(nameInput, dateInput);
     $(".results1").show();
     $(".userInfo").hide();
     $(".btn").hide();
+    $(".backbtn").show();
     event.preventDefault();
   });
 });
