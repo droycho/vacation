@@ -14,12 +14,12 @@ _{This is a very basic webpage designed to perform very basic functions. It asks
 * _From console/terminal, navigate to correct folder, should be "vacation"._
 * _once in vacation folder (should be ~/desktop/vacation), you can then either open the index.html file from the finder or enter the command to open it._
 * _Code can be reviewed through any plain-text editor._
+* _**EDIT: added gh-pages branch, site can be viewed at droycho.github.io/vacation_
 
-_{I have no yet created a gh-pages branch for this project, so you will need to have the files copied or cloned to you local drive in order for this to work.}_
 
 ## Known Bugs
 
-_{No gh-pages branch yet. You will need to copy or clone all essential files from repository and run locally for it to work. }_
+_{No gh-pages branch yet. You will need to copy or clone all essential files from repository and run locally for it to work. ** EDIT: Added gh-pages. web address above.}_
 
 ## Support and contact details
 
